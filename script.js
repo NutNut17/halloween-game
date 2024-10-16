@@ -22,17 +22,17 @@ function generateGrid() {
     container.className = `row row-cols-${gridSize}`;
 
     const images = [
-        '/img/bat.png',
-        '/img/candle.png',
-        '/img/ghost.png',
-        '/img/halloween-candy.png',
-        '/img/haunted-house.png',
-        '/img/pumpkin.png',
-        '/img/skull.png',
-        '/img/spider-web.png',
-        '/img/spider.png',
-        '/img/tomb.png',
-        '/img/witch.png',
+        'img/bat.png',
+        'img/candle.png',
+        'img/ghost.png',
+        'img/halloween-candy.png',
+        'img/haunted-house.png',
+        'img/pumpkin.png',
+        'img/skull.png',
+        'img/spider-web.png',
+        'img/spider.png',
+        'img/tomb.png',
+        'img/witch.png',
     ];
 
     for (let i = 0; i < gridSize * gridSize; i++) {
